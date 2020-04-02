@@ -1,0 +1,56 @@
+FunDeflist
+	*FunDef
+	*FunDefRec
+
+HeaderAbs
+	*Header
+	*exp
+	      *Expid
+	      *Expint
+	      *Expfloat
+	      *Expnil
+	      *Expif
+	      *Expfunexp
+	      *FunOp
+	      		*Funid
+	      		*Funpair
+	      		*Funfirst
+	      		*Funsecond
+                        
+                        *ArithOp
+ 				*ArithPlus
+				*ArithMinus
+				*ArithMul
+				*ArithDiv
+                        *BoolOp
+ 				*BoolOpor
+				*BoolOpand
+				*BoolOpnot
+
+                       *CompOp
+ 				*CompOpGt
+ 				*CompOpGe
+ 				*CompOpLt
+ 				*CompOpLe
+ 				*CompOpEq
+ExpList			
+	*SingleExpList
+	*MulExpList		
+
+FunName
+	
+
+ParameterList
+	*SingleParameterList
+	*MulParameterList
+
+IO
+    *LexAn
+          *Parser
+
+State
+
+
+
+
+IO.displayln(indent + indent.length() + " <primary>"); 
